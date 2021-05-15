@@ -20,6 +20,12 @@ export default function AppReducer(state, action) {
                 jobs: [],
                 error: action.payload.error
             }
+        
+        case 'update_has_next_page':
+            return {
+                ...state,
+                hasNextPage: action.payload.hasNextPage
+            }
 
         default:
             return state
