@@ -22,5 +22,6 @@ export default function SearchForm({param, onParamsChange}) {
                 </Form.Group>
             </Form.Row>
         </Form>
+        
     )
 }
