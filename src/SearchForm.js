@@ -6,7 +6,7 @@ export default function SearchForm({param, onParamsChange}) {
         <Form className="ml-3">
             <Form.Row className="align-items-end">
                 <Form.Group as={Col}>
-                    <Form.Label>Description</Form.Label>
+                    <Form.Label>Job Description</Form.Label>
                     <Form.Control onChange={onParamsChange} 
                     value={param.description} name="description" type="text" />
                 </Form.Group>
